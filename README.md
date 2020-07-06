@@ -13,8 +13,9 @@ $ ansible master --become -a "tail -1 /var/log/audit/audit.log"
 
 $ ansible node01 --become -a "tail -1 /var/log/audit/audit.log"
 $ ansible node02 --become -a "tail -1 /var/log/audit/audit.log"
+.
+.
 ```
-and so on...
 
 2. Please make sure the RHEL is already subscribed (attached).
 
