@@ -24,7 +24,8 @@ $ ansible node02 --become -a "tail -1 /var/log/audit/audit.log"
 
 Please make sure you modify below file accordingly:
 
-Step1: Set your IP range for MetalLB in : local_files/my-layer2-config.yaml 
+Step1: Set your IP range for MetalLB in : local_files/my-layer2-config.yaml.
+
 This IP range should be from the same Network as your Master/Nodes IP network.
 
 ```
