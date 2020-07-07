@@ -3,6 +3,11 @@
 Note: These playbooks work only on "On-Premise" RHEL 7.x. VMs.
 (Not tested on any other Linux flavor).
 
+You can also watch this youtube tutorial that explains step-by-step process to deploy kubernetes using these playbooks:
+
+https://www.youtube.com/watch?v=IAAI9Fes2L0
+
+
 ##  Prerequisites
 
 1. You must be able to run superuser commands on Linux servers through ansible.
@@ -19,6 +24,9 @@ $ ansible node02 --become -a "tail -1 /var/log/audit/audit.log"
 
 2. Please make sure the RHEL is already subscribed (attached).
 
+3. Download these files on your ansible control node:
+
+   $ git clone https://github.com/tech-tok/kubernetes-ansible-rhel
 
 ## Install Instructions 
 
